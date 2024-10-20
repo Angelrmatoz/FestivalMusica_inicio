@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/SCSS:build/css",
+    "css": "gulp css",
+    "dev": "gulp",
+    "start": "npm run sass && npm run css && npm run dev"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Angel Ricardo Matos Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "plumber": "^0.4.8",
+    "sass": "^1.75.0"
+  }
+}
